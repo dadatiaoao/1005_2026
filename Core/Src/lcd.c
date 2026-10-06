@@ -511,7 +511,8 @@ HAL_StatusTypeDef lcd_init(void)
     }
 
     lcd_display_dir(1); /* Original example's landscape command/dimension logic. */
-    if (lcddev.width != 800 || lcddev.height != 480)
+    /* Diagnostic: use the dimensions selected by the recognized controller. */
+    if (lcddev.width == 0 || lcddev.height == 0)
     {
         g_lcd_init_state = LCD_INIT_UNEXPECTED_SIZE;
         return HAL_ERROR;
