@@ -35,3 +35,4 @@ Desktop.ini
 # RTE headers and DebugConfig: these are project inputs/configuration.
 *.axf
 *.htm
+*.dbgconf
