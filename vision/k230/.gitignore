@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+vision_autostart.off
+vision_autostart_error.txt

@@ -1,0 +1,21 @@
+{
+  "python_syntax_files": 13,
+  "hardware_accessed": false,
+  "passed": [
+    {
+      "test": "vision_wire_selftest.py",
+      "passed": true,
+      "summary": "WIRE_SELFTEST_PASS 4 ['crc_reference_and_single_byte_fragmentation', 'noise_crc_bad_length_glued_packets_and_partial_timeout', 'material_ring_empty_and_inconsistent_result_validation', 'endpoint_session_sequence_partial_tx_mode_change_expiry_and_io_loss']"
+    },
+    {
+      "test": "test_vision_session.py",
+      "passed": true,
+      "summary": "PASSED 4 unified vision behavior groups"
+    },
+    {
+      "test": "test_vision_startup.py",
+      "passed": true,
+      "summary": "STARTUP_GUARDS_PASS 4"
+    }
+  ]
+}
